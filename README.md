@@ -6,31 +6,31 @@
 
 This project implements Telecom Regulatory Authority of India (TRAI) band spectrum auction for different circles across the counrty based on fair band allocation policy as well as keeps track of the usage of radio frequency spectrum, as well as the generations of cellular networks used by Indian telecom users,
 
-# 1) project repository consist of three branches viz:
+1) project repository consist of three branches viz:
 
 main
 branch1
 branch2
 
-# 2) main branch resources:
+2) main branch resources:
 
 *README file.
 *Problem statement.
 *csv files: subscribers.csv, spectrumRequest.csv, spectrumRange.csv & MVNOSpectrum.csv
 
-# 3) branch1 resources:
+3) branch1 resources:
 
 *part1.cpp: This file contains source code for "Q1 to Q5" in given problem statement.
 *Supporting .csv files for running "part1.cpp"
 *Empty "Bidding_Report.txt" file to print & store allocation information after every auction.
 *makefile for part1.cpp
 
-# 4) branch2 resources:
+4) branch2 resources:
    
 *part2.cpp: This file contains source code for "Q6" seperately.
 *makefile for part2.cpp
 
-# 5) Notes:
+5) Notes:
 
 **Usage Density (λ) = No. of bands/No. of users
 **Input validy for circle input in "part1.cpp" only valid circle inputs are allowed.
